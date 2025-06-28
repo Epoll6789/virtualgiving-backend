@@ -16,7 +16,7 @@ public class WebConfig {
                 registry.addMapping("/**")
                         .allowedOriginPatterns(
                             "http://localhost:5173",
-                            "https://virtualgivingfrontend.onrender.com"
+                            "https://vitualgivingfrontend.onrender.com"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
